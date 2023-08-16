@@ -50,7 +50,7 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
               src={data?.videoUrl}
             ></video>
             <div
-              className="absolute right-3 top-3 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black bg-opacity-70"
+              className="absolute right-3 top-9 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black bg-opacity-70 md:top-3"
               onClick={handleClose}
             >
               <AiOutlineClose className="text-white" size={20} />

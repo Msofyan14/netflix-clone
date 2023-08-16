@@ -36,7 +36,7 @@ const Billboard = () => {
             onClick={handleOpenModal}
           >
             {" "}
-            <AiOutlineInfoCircle className="mr-1" />
+            <AiOutlineInfoCircle className="mr-1" size={25} />
             More Info
           </button>
         </div>
